@@ -1,0 +1,48 @@
+/* 헤더 */
+.Login-Bar{
+    height: 34px;
+    display: flex;
+    align-items:baseline;
+    margin: 0 auto;
+    padding: 0px;
+    background-color: var(--color-gray-100);
+}
+
+.Login-Bar .Login-Bar-list {
+    margin: 8px;
+    font-size: 12px;
+    color: var(--color-back);
+}
+
+.Login-Bar .Login-Bar-list:nth-child(3) {
+    margin-left: auto;
+}
+
+.button--category {
+    width: 110px;
+    height: 116px;
+    font-size: 12px;
+    font-weight: 400;
+    color: var(--color-white);
+    background-image: url(/assets/icon/hamburger.svg);
+    background-color: var(--color-blue-600);
+    background-repeat: no-repeat;
+    padding-top: 52px;
+    background-position: 50% 40%;
+}
+
+select {
+    -webkit-appearance:none; 
+    -moz-appearance:none; 
+    appearance:none 
+}
+
+.serach {
+    width: 516px;
+    height: 40px;
+}
+
+#serach-form {
+    width: 135px;
+    height: 40px;
+}
